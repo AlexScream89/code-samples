@@ -1,3 +1,6 @@
+// This component is for displaying "Personal Plans" fields with pagination.
+// It also has "Personal Plans" search field.
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormGroup, FormControl, Validators } from '@angular/forms';

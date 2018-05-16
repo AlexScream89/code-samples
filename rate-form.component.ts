@@ -1,3 +1,6 @@
+// This component was designed to select rating.
+// If rating has already been selected, it will be taken from localstorage and new rating will be saved to localstorage as well.
+
 import { Component, Input } from '@angular/core';
 import { LocalStorageService } from "angular-2-local-storage";
 import { ActivatedRoute, Params } from "@angular/router";
